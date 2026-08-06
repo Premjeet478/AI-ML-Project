@@ -1,0 +1,32 @@
+body {
+  background-color: #f4f4f4; /* Halka grey rang ka background */
+  font-family: 'Open Sans', sans-serif; /* Saaf dikhne wala font style */
+}
+
+header {
+  background-color: #fcba03; /* Peela (Yellow/Orange) rang */
+  padding: 25px 0; /* Patti ki unchai (thickness) badhane ke liye */
+}
+
+.title {
+  float: left; /* Ise left side mein chipka do */
+  font-size: 17px; /* Aksharon ka size */
+  letter-spacing: 2.5px; /* Aksharon ke beech mein gap */
+  text-transform: uppercase; /* Saare akshar CAPITAL mein honge */
+  margin: 0px 20px; /* Thoda side se gap taaki chipka hua na lage */
+}
+
+.upload-image-thumb {
+  max-width: 800px; /* Photo 800px se badi nahi hogi */
+  margin: 100px; /* Charon taraf se 100px ka khali area */
+}
+.image-container {
+  margin: 0px auto; /* Photo ko screen ke BILKUL BEECH (Center) mein laane ke liye */
+}
+
+.centered {
+  position: fixed; /* Ise ek jagah par "keel" se gaad do */
+  top: 50%; /* Upar se aadhi screen neeche */
+  left: 50%; /* Left se aadhi screen aage */
+  transform: translate(-50%, -50%); /* Mathematical magic taaki bilkul center mein fit ho jaye */
+}

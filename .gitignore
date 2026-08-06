@@ -1,0 +1,4 @@
+Face_Recognization/venv/
+ImageClassification/my_first_venv/
+**/venv/
+**/my_first_venv/
